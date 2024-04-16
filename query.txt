@@ -1,7 +1,7 @@
 {isActive :true} => 51 Elementi
 {age : {$gt:26}} => 54 Elementi
 {$and : [{age : {$gt:26}}, {age : {$lte : 30}}]} => 19 Elementi
-{$or : [{eyeColor : {$eq:'brown'}}, {eyeColor : {$eq:'blue'}}]} => 66 Elementi
+{$or : [{eyeColor : 'brown'}, {eyeColor : 'blue'}]} => 66 Elementi
 {eyeColor : {$ne:'green'}} => 66 Elementi
 {$and : [{eyeColor : {$ne:'green'}}, {eyeColor : {$ne:'blue'}}]} => 35 Elementi
 {
